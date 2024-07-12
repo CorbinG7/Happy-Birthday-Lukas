@@ -1,0 +1,59 @@
+
+@font-face { font-family: Avatar Airbender; src: url('assets/Avatar\ Airbender.ttf'); } 
+/*------------------------------------------------*/
+
+#wrapper {
+    position: fixed;
+    display: inline-block;
+    top: 0%;
+    left: 0%;
+  }
+  #reel {
+    width: 100vw;
+  }
+  .overlay {
+    position: absolute;
+    width: 20%;
+    left: 40%;
+    top: 30%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-120%);
+  }
+
+#image {
+    transition: 3s;
+    opacity: 0%;
+}
+
+#countdown {
+    position: absolute;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(0%);
+    font-size: 5rem;
+    border-color: aqua;
+    opacity: 0%;
+    transition: 3s;
+
+}
+
+#days, #hours, #minutes, #seconds {
+    margin: 2.5rem 7rem 0rem;
+    font-family: Avatar Airbender;
+    background-color: wheat;
+
+}
+
+#text {
+    font-size: 1.5rem;
+    font-family: Avatar Airbender;
+    background-color: wheat;
+    margin: 0rem 7rem 0rem;
+    padding-bottom: 0.5rem;
+}
